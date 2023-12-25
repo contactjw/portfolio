@@ -18,11 +18,8 @@ export default function About() {
         <span className="font-medium">Computer Science</span> at{' '}
         <span className="font-medium">Cal Poly Pomona</span> with over a year of
         relevant internship experience. Most recently, I finished an eight-month
-        internship with{' '}
-        <span className="font-medium">
-          Lawrence Livermore National Laboratory
-        </span>
-        , working as a software engineer intern. I have a love for{' '}
+        internship with Lawrence Livermore National Laboratory, working as a
+        software engineer intern. I have a love for{' '}
         <span className="font-medium">full-stack development</span> and{' '}
         <span className="font-medium">creative problem-solving.</span> My core
         stack is{' '}
@@ -30,16 +27,16 @@ export default function About() {
           React with TypeScript, Next.js, Node.js, and MongoDB
         </span>
         . {`I'm`} also familiar with vanilla JavaScript, Vue.js, Vite,
-        Vue-Router, Pinia, Ant Design Vue, Vitest, and Supabase. I love to learn
-        and try out new technologies and can say this has made me very adaptable
-        in the field. {`I'm`} currently on the lookout for an{' '}
+        Vue-Router, Pinia, Ant Design Vue, Vitest, and Supabase. I have a
+        passion for learning and exploring new technologies, which has improved
+        my adaptability as a developer. {`I'm`} currently on the lookout for an{' '}
         <span className="font-medium">internship and/or co-op position</span> as
         a software developer.
       </p>
       <p>
         <span className="italic">Outside of coding</span>, I enjoy meditating to
-        stay present, fitness, playing video games, watching movies, and
-        spending time with family and loved ones. I also enjoy{' '}
+        stay present, being physically active, playing video games, watching
+        movies, and spending time with family and loved ones. I also enjoy{' '}
         <span className="font-medium">learning new things</span> when{' '}
         {`I'm not`} programming. {`I'm`} currently learning{' '}
         <span className="font-medium">Mandarin Chinese</span>, and though{' '}
