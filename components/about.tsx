@@ -15,9 +15,10 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         {`I'm`} currently a junior-year student majoring in{' '}
-        <span className="font-medium">Computer Science at Cal Poly Pomona</span>{' '}
-        with over a year of relevant internship experience. Most recently, I
-        finished an eight-month internship with{' '}
+        <span className="font-medium">Computer Science</span> at{' '}
+        <span className="font-medium">Cal Poly Pomona</span> with over a year of
+        relevant internship experience. Most recently, I finished an eight-month
+        internship with{' '}
         <span className="font-medium">
           Lawrence Livermore National Laboratory
         </span>
