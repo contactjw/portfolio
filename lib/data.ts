@@ -2,7 +2,7 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
+import weatherAppImage from '@/public/weatherApp.png';
 import rmtdevImg from '@/public/rmtdev.png';
 import wordanalyticsImg from '@/public/wordanalytics.png';
 
@@ -62,18 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'instagram-clone',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+      'An Instagram clone created with Vue.js, JavaScript, Vite, Pinia, Ant Design Vue, Vue-Router, Vitest, and Supabase. (In-Progress)',
+    tags: ['Vue.js', 'JavaScript', 'Vite', 'Pinia', 'Supabase'],
+    imageUrl: rmtdevImg,
   },
   {
-    title: 'rmtDev',
+    title: 'weather-app',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      'A weather app created with HTML, CSS, JavaScript, and the OpenWeatherMap API.',
+    tags: ['JavaScript', 'CSS', 'HTML', 'OpenWeatherMap API'],
+    imageUrl: weatherAppImage,
   },
   {
     title: 'Word Analytics',
