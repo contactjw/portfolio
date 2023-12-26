@@ -27,9 +27,10 @@ export default function About() {
           React with TypeScript, Next.js, Node.js, and MongoDB
         </span>
         . {`I'm`} also familiar with vanilla JavaScript, Vue.js, Vite,
-        Vue-Router, Pinia, Ant Design Vue, Vitest, and Supabase. I have a
-        passion for learning and exploring new technologies, which has improved
-        my adaptability as a developer. {`I'm`} currently on the lookout for an{' '}
+        Vue-Router, Pinia, Ant Design Vue, Vitest, Supabase, and Docker. I have
+        a passion for learning and exploring new technologies, which has
+        improved my adaptability as a developer. {`I'm`} currently on the
+        lookout for an{' '}
         <span className="font-medium">internship and/or co-op position</span> as
         a software developer.
       </p>
