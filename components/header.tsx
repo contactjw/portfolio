@@ -1,14 +1,15 @@
 'use client';
 
-import React, { useContext, useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { links } from '@/lib/data';
 import Link from 'next/link';
 import clsx from 'clsx';
-import { ActiveSectionContext } from '@/context/active-section-context';
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Header() {
-  const { activeSection, setActiveSection } = useContext(ActiveSectionContext);
+  const { activeSection, setActiveSection, setTimeOfLastClick } =
+    useActiveSectionContext();
 
   return (
     <header className="z-[999] relative">
@@ -34,7 +35,10 @@ export default function Header() {
                   }
                 )}
                 href={link.hash}
-                onClick={() => setActiveSection(link.name)}
+                onClick={() => {
+                  setActiveSection(link.name);
+                  setTimeOfLastClick(Date.now());
+                }}
               >
                 {link.name}
                 {link.name === activeSection && (
