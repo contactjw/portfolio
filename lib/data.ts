@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Lawrence Livermore Lab Internship',
+    title: 'Lawrence Livermore National Lab Internship',
     location: 'Livermore, CA',
     description:
       'I interned for eight months as a software engineer primarily working with front-end technologies.',
@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "I'm now looking for an internship or work as a full-stack developer. I've worked with React.js, Next.js, Vue.js, TypeScript, Routing, Pinia, Redux, Node.js, Supabase, and more.",
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2024 - present',
   },
 ] as const;
 
