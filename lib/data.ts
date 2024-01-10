@@ -52,7 +52,7 @@ export const experiencesData = [
   },
   {
     title: 'Looking for Work as a Full-Stack Developer',
-    location: 'Irvine, CA',
+    location: 'Location TBD',
     description:
       "I'm now looking for an internship or work as a full-stack developer. I've worked with React.js, Next.js, Vue.js, TypeScript, Routing, Pinia, Redux, Node.js, Supabase, and more.",
     icon: React.createElement(FaReact),
@@ -76,9 +76,9 @@ export const projectsData = [
     imageUrl: weatherAppImage,
   },
   {
-    title: 'Word Analytics',
+    title: 'Placeholder',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
+      'This section will be filled out soon with the project that I have chosen to use.',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
     imageUrl: wordanalyticsImg,
   },
