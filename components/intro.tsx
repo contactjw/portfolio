@@ -21,6 +21,22 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
+      <motion.h1
+        className="mb-8 mt-5 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">{`Hey, I'm John! `}</span>
+      </motion.h1>
+
+      <motion.p
+        className="mb-12 mt-5 px-4 text-lg font-medium !leading-[1.5] sm:text-xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        {`I'm a`} full-stack developer and student. I enjoy spending my time
+        building responsive sites & apps. My focus is React (Next.js) and Vue.js
+      </motion.p>
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -33,10 +49,10 @@ export default function Intro() {
               alt="Photo of John West"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="border-solid border-2 border-white mb-14 h-36 w-36 rounded-full object-cover shadow-xl"
             />
           </motion.div>
-          <motion.span
+          {/* <motion.span
             className="absolute bottom-0 left-0 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -48,21 +64,9 @@ export default function Intro() {
             }}
           >
             👋
-          </motion.span>
+          </motion.span> */}
         </div>
       </div>
-
-      <motion.h1
-        className="mb-10 mt-5 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">{`Hello, I'm John. `}</span>
-        {`I'm a`} <span className="font-bold">full-stack developer</span> and{' '}
-        <span className="font-bold">student</span>. I enjoy building{' '}
-        <span className="italic">sites & apps</span>. My focus is{' '}
-        <span className="underline">React (Next.js) and Vue.js</span>.
-      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
