@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import React from 'react';
 import profile_pic from '@/public/profilepic.png';
+import cloud_pic from '@/public/cloud.png';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -29,6 +30,24 @@ export default function Intro() {
         <span className="font-bold">{`Hey, I'm John! `}</span>
       </motion.h1>
 
+      <motion.div
+        animate={{ x: ['6%', '100%', '6%'] }}
+        transition={{
+          duration: 77,
+          ease: 'linear',
+          repeat: Infinity,
+        }}
+        className="z-5 absolute left-[-8rem] top-[4rem] !w-screen"
+      >
+        <Image
+          src={cloud_pic}
+          alt="cloud"
+          quality="95"
+          priority={true}
+          className="opacity-70 absolute left-[0] h-36 w-36 object-cover"
+        />
+      </motion.div>
+
       <motion.p
         className="mb-12 mt-5 px-4 text-lg font-medium !leading-[1.5] sm:text-xl"
         initial={{ opacity: 0, y: 100 }}
@@ -52,19 +71,23 @@ export default function Intro() {
               className="border-solid border-2 border-white mb-14 h-36 w-36 rounded-full object-cover shadow-xl"
             />
           </motion.div>
-          {/* <motion.span
-            className="absolute bottom-0 left-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+          <motion.div
+            animate={{ x: ['106%', '0%', '106%'] }}
             transition={{
-              type: 'spring',
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
+              duration: 111,
+              ease: 'linear',
+              repeat: Infinity,
             }}
+            className="z-5 absolute right-[-40rem] top-[15rem] !w-screen"
           >
-            👋
-          </motion.span> */}
+            <Image
+              src={cloud_pic}
+              alt="cloud"
+              quality="95"
+              priority={true}
+              className="opacity-70 absolute left-[0] h-36 w-36 object-cover"
+            />
+          </motion.div>
         </div>
       </div>
 
