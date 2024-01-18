@@ -53,7 +53,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {`I'm a`} a full-stack developer and student who loves to create
+        {`I'm a`} full-stack developer and student who loves to create
         websites and apps. My focus is React (Next.js) and Vue.js
       </motion.p>
       <div className="flex items-center justify-center">
