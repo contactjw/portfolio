@@ -29,7 +29,7 @@ export default function About() {
         <span className="font-medium">creative problem-solving.</span> My core
         stack is{' '}
         <span className="font-medium">
-          React with TypeScript, Next.js, Node.js, and MongoDB
+          React with TypeScript, Next.js, Node.js, Express.js, and MongoDB
         </span>
         . {`I'm`} also familiar with vanilla JavaScript, Vue.js, Vite,
         Vue-Router, Pinia, Ant Design Vue, Vitest, Supabase, and Docker. I have
