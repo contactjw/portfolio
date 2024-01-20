@@ -33,18 +33,18 @@ export default function Intro() {
       <motion.div
         animate={{ x: ['6%', '100%', '6%'] }}
         transition={{
-          duration: 77,
+          duration: 155,
           ease: 'linear',
           repeat: Infinity,
         }}
-        className="z-5 absolute left-[-8rem] top-[4rem] !w-screen"
+        className="-z-10 absolute left-[-8rem] top-[10rem] !w-screen"
       >
         <Image
           src={cloud_pic}
           alt="cloud"
           quality="95"
           priority={true}
-          className="opacity-70 absolute left-[0] h-36 w-36 object-cover"
+          className="opacity-40 absolute left-[0] h-20 w-20 object-cover"
         />
       </motion.div>
 
@@ -53,8 +53,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {`I'm a`} full-stack developer and student who loves to create
-        websites and apps. My focus is React (Next.js) and Vue.js
+        {`I'm a`} full-stack developer and student who loves to create websites
+        and apps. My focus is React (Next.js) and Vue.js
       </motion.p>
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -85,7 +85,7 @@ export default function Intro() {
               alt="cloud"
               quality="95"
               priority={true}
-              className="opacity-70 absolute left-[0] h-36 w-36 object-cover"
+              className="opacity-80 absolute left-[0] h-56 w-56 object-cover"
             />
           </motion.div>
         </div>
