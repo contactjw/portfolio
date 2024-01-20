@@ -30,7 +30,7 @@ export default function Intro() {
         <span className="font-bold">{`Hey, I'm John! `}</span>
       </motion.h1>
 
-      <motion.div
+      {/* <motion.div
         animate={{ x: ['6%', '100%', '6%'] }}
         transition={{
           duration: 155,
@@ -46,7 +46,7 @@ export default function Intro() {
           priority={true}
           className="opacity-40 absolute left-[0] h-20 w-20 object-cover"
         />
-      </motion.div>
+      </motion.div> */}
 
       <motion.p
         className="mb-12 mt-5 px-4 text-lg font-medium !leading-[1.5] sm:text-xl"
@@ -71,7 +71,7 @@ export default function Intro() {
               className="border-solid border-2 border-white mb-14 h-36 w-36 rounded-full object-cover shadow-xl"
             />
           </motion.div>
-          <motion.div
+          {/* <motion.div
             animate={{ x: ['106%', '0%', '106%'] }}
             transition={{
               duration: 111,
@@ -87,7 +87,7 @@ export default function Intro() {
               priority={true}
               className="opacity-80 absolute left-[0] h-56 w-56 object-cover"
             />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 
